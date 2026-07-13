@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Register for the hackathon
+    url: https://example.org/REPLACE-WITH-REGISTRATION-FORM
+    about: Eighty seats, advance registration required. Registration is not handled through GitHub.
+  - name: BigBrain Workshop 2026
+    url: https://events.hifis.net/event/3620/
+    about: The 10th BigBrain Workshop, 21-22 October, with a Training Day on 20 October.

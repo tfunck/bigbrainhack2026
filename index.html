@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BigBrain Hackathon 2026 — 18–19 October, The Neuro, Montréal</title>
+<meta name="description" content="A two-day, on-site hackathon for the BigBrain and neuroimaging communities. 18–19 October 2026, de Grandpré Communications Centre, The Neuro, Montréal. 80 seats. Sponsored by Dell and NVIDIA.">
+<meta name="theme-color" content="#E6E8E3">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="BigBrain Hackathon 2026">
+<meta property="og:description" content="Two days of building tools for high-resolution brain data. 18–19 October 2026, The Neuro, Montréal. 80 seats, registration required.">
+<meta property="og:image" content="assets/img/og-card.svg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script>
+  /* ------------------------------------------------------------------
+     SITE CONFIG — edit these three values after you create the repo.
+     ------------------------------------------------------------------ */
+  window.SITE = {
+    repo: "OWNER/bigbrain-hackathon-2026",   // <- your GitHub owner/repo
+    projectLabel: "Project",                 // label used by the issue form
+    registrationUrl: "#"                     // <- paste your registration form URL
+  };
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <a class="nav__brand" href="#top">
+    <svg class="nav__mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <g stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+        <path d="M5 6h14M3.5 10h17M3 14h18M5 18h14"/>
+      </g>
+    </svg>
+    <span>BigBrain Hackathon <b>2026</b></span>
+  </a>
+  <nav class="nav__links" aria-label="Sections">
+    <a href="#about">About</a>
+    <a href="#compute">Compute</a>
+    <a href="#projects">Projects</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#venue">Venue</a>
+  </nav>
+  <a class="btn btn--solid nav__cta" data-register href="#register">Register</a>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero__text">
+      <p class="eyebrow">18–19 October 2026 · The Neuro · Montréal</p>
+      <h1 class="hero__title">Hack the brain<br>at 20 microns.</h1>
+      <p class="hero__lede">
+        Two days of building, testing, and breaking tools for BigBrain and other
+        high-resolution brain datasets — with the people who make them. On-site,
+        eighty seats, immediately before the 10th BigBrain Workshop.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--solid" data-register href="#register">Register — 80 seats</a>
+        <a class="btn btn--ghost" href="#projects">Pitch a project</a>
+      </div>
+      <dl class="facts">
+        <div class="facts__item">
+          <dt>Dates</dt><dd>Sun 18 – Mon 19 Oct 2026<br><span class="muted">09:00 – 18:00 both days</span></dd>
+        </div>
+        <div class="facts__item">
+          <dt>Venue</dt><dd>de Grandpré Communications Centre<br><span class="muted">Montreal Neurological Institute</span></dd>
+        </div>
+        <div class="facts__item">
+          <dt>Cost</dt><dd>Free to attend<br><span class="muted">Advance registration required</span></dd>
+        </div>
+      </dl>
+    </div>
+
+    <figure class="hero__figure" aria-labelledby="fig-cap">
+      <svg class="stack" id="stack" viewBox="0 0 800 520" role="img" aria-label="A coronal brain section drawn as a stack of thin horizontal lines, assembling from the top down.">
+        <defs>
+          <linearGradient id="laminae" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%"   stop-color="var(--stain)"/>
+            <stop offset="55%"  stop-color="var(--ink)"/>
+            <stop offset="100%" stop-color="var(--stain-deep)"/>
+          </linearGradient>
+          <clipPath id="section-clip">
+            <path d="M394 44 C 330 46 258 78 213 132 C 166 188 142 250 154 306 C 161 341 176 359 196 367
+                     C 166 374 138 394 134 421 C 131 453 166 471 210 467 C 262 462 312 448 344 436
+                     C 366 428 380 424 394 424 Z
+                     M406 44 C 470 46 542 78 587 132 C 634 188 658 250 646 306 C 639 341 624 359 604 367
+                     C 634 374 662 394 666 421 C 669 453 634 471 590 467 C 538 462 488 448 456 436
+                     C 434 428 420 424 406 424 Z"/>
+          </clipPath>
+        </defs>
+
+        <!-- scanlines are injected here by main.js -->
+        <g id="scanlines" clip-path="url(#section-clip)"></g>
+
+        <path class="stack__outline"
+              d="M394 44 C 330 46 258 78 213 132 C 166 188 142 250 154 306 C 161 341 176 359 196 367
+                 C 166 374 138 394 134 421 C 131 453 166 471 210 467 C 262 462 312 448 344 436
+                 C 366 428 380 424 394 424 Z
+                 M406 44 C 470 46 542 78 587 132 C 634 188 658 250 646 306 C 639 341 624 359 604 367
+                 C 634 374 662 394 666 421 C 669 453 634 471 590 467 C 538 462 488 448 456 436
+                 C 434 428 420 424 406 424 Z"/>
+      </svg>
+      <figcaption class="mono" id="fig-cap">coronal section · 20 µm isotropic · 1 of 7,404</figcaption>
+    </figure>
+  </section>
+
+  <!-- ================= SPONSOR BANNER ================= -->
+  <section class="band" id="compute">
+    <div class="band__head">
+      <p class="eyebrow eyebrow--light">Compute partners</p>
+      <h2 class="band__title">Dell and NVIDIA are putting a petaflop on every table.</h2>
+    </div>
+
+    <div class="band__grid">
+      <div class="band__logos">
+        <a class="logo" href="https://www.dell.com/" rel="noopener">
+          <img src="assets/img/sponsor-dell.svg" alt="Dell Technologies">
+        </a>
+        <a class="logo" href="https://www.nvidia.com/" rel="noopener">
+          <img src="assets/img/sponsor-nvidia.svg" alt="NVIDIA">
+        </a>
+      </div>
+
+      <div class="band__body">
+        <p class="band__lede">
+          <strong>Twenty Dell Pro Max workstations with NVIDIA GB10</strong> will be on site for
+          teams to develop on for the full two days — no queue, no scheduler, no cloud bill.
+        </p>
+        <ul class="specs mono">
+          <li><span>Superchip</span> NVIDIA GB10 Grace Blackwell</li>
+          <li><span>Memory</span> 128&nbsp;GB unified LPDDR5X</li>
+          <li><span>Storage</span> 2&nbsp;TB NVMe SSD</li>
+          <li><span>OS</span> NVIDIA DGX OS 7</li>
+          <li><span>Link</span> ConnectX-7, pair two units over 200G</li>
+        </ul>
+        <a class="link" href="https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/dell-pro-max-fcm1253-micro" rel="noopener">Full specifications at Dell →</a>
+      </div>
+
+      <aside class="prize">
+        <p class="prize__kicker mono">The prize</p>
+        <p class="prize__num">1<span>×</span></p>
+        <p class="prize__text">
+          One Dell Pro Max with GB10 goes home with the team behind the winning project,
+          <strong>chosen by a vote of the workshop participants</strong> at the close of Day 2.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="section__head">
+      <p class="eyebrow">What it is</p>
+      <h2 class="section__title">A working room, not a lecture hall.</h2>
+    </div>
+    <div class="prose">
+      <p>
+        The BigBrain Hackathon brings together researchers, trainees, developers, and data
+        scientists from the BigBrain and broader neuroimaging communities. It's a focused space
+        to build, test, and refine tools for working with BigBrain and related high-resolution
+        brain datasets.
+      </p>
+      <p>
+        Participants collaborate on practical challenges in data analysis, visualization,
+        multimodal integration, and computational methods, while sharing expertise across
+        disciplines. The aim is to start new collaborations, accelerate open tool development,
+        and support community-driven innovation around BigBrain and its growing technical
+        ecosystem.
+      </p>
+      <p>
+        You don't need to arrive with a project. Pitches happen on the morning of Day 1, teams
+        form on the spot, and every project is open to newcomers.
+      </p>
+    </div>
+
+    <ul class="themes">
+      <li>Data analysis</li>
+      <li>Visualization</li>
+      <li>Multimodal integration</li>
+      <li>Laminar &amp; cytoarchitecture</li>
+      <li>Segmentation &amp; AI</li>
+      <li>Atlases &amp; parcellation</li>
+      <li>HPC &amp; scaling</li>
+      <li>Documentation &amp; training</li>
+    </ul>
+
+    <div class="callout">
+      <p class="callout__kicker mono">Part of BigBrain Week</p>
+      <p>
+        The hackathon runs immediately before the <strong>10th BigBrain Workshop</strong>
+        (21–22 October) and its Training Day (20 October), both in Montréal. Come for one, stay
+        for all three.
+      </p>
+      <a class="link" href="https://events.hifis.net/event/3620/" rel="noopener">BigBrain Workshop 2026 →</a>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section section--alt" id="projects">
+    <div class="section__head">
+      <p class="eyebrow">Projects</p>
+      <h2 class="section__title">Pitch a project.</h2>
+    </div>
+
+    <div class="prose">
+      <p>
+        Projects are submitted as GitHub issues and appear on this page automatically. Anyone
+        can propose one: a tool to build, a dataset to wrangle, a method to test, a stubborn bug
+        to finally kill. Keep the scope to two days and say what help you need.
+      </p>
+    </div>
+
+    <div class="projects__actions">
+      <a class="btn btn--solid" data-submit-project href="#">Submit a project</a>
+      <a class="btn btn--ghost" data-browse-issues href="#">Browse on GitHub</a>
+    </div>
+
+    <div class="projects__bar">
+      <p class="mono" id="projects-count">Loading projects…</p>
+      <div class="chips" id="projects-filters" role="group" aria-label="Filter projects by theme"></div>
+    </div>
+
+    <div class="cards" id="projects-grid"></div>
+
+    <div class="empty" id="projects-empty" hidden>
+      <p class="empty__title">No projects yet.</p>
+      <p>Be the first. Submissions open now and stay open until the morning of Day 1.</p>
+    </div>
+  </section>
+
+  <!-- ================= SCHEDULE ================= -->
+  <section class="section" id="schedule">
+    <div class="section__head">
+      <p class="eyebrow">Schedule · provisional</p>
+      <h2 class="section__title">Two days, 09:00 to 18:00.</h2>
+    </div>
+
+    <div class="days">
+      <article class="day">
+        <header class="day__head">
+          <h3>Day 1</h3>
+          <p class="mono">Sunday 18 October</p>
+        </header>
+        <ol class="agenda">
+          <li><span class="mono">09:00</span><b>Doors, coffee, badge pickup</b></li>
+          <li><span class="mono">09:30</span><b>Welcome</b><em>BigBrain, HIBALL, and how the two days work</em></li>
+          <li><span class="mono">10:00</span><b>Project pitches</b><em>Two minutes each, from the submitted list</em></li>
+          <li><span class="mono">10:45</span><b>Team formation</b><em>Pick a room, pick a table, start</em></li>
+          <li class="agenda--hack"><span class="mono">11:00</span><b>Hacking</b></li>
+          <li><span class="mono">12:30</span><b>Lunch</b></li>
+          <li class="agenda--hack"><span class="mono">13:30</span><b>Hacking</b><em>GB10 onboarding clinic runs alongside, with Dell and NVIDIA</em></li>
+          <li><span class="mono">15:30</span><b>Coffee</b></li>
+          <li class="agenda--hack"><span class="mono">16:00</span><b>Hacking</b></li>
+          <li><span class="mono">17:30</span><b>Day 1 standup</b><em>One minute per team: what moved, what's stuck</em></li>
+          <li><span class="mono">18:00</span><b>Venue closes</b></li>
+        </ol>
+      </article>
+
+      <article class="day">
+        <header class="day__head">
+          <h3>Day 2</h3>
+          <p class="mono">Monday 19 October</p>
+        </header>
+        <ol class="agenda">
+          <li><span class="mono">09:00</span><b>Doors, coffee</b></li>
+          <li><span class="mono">09:15</span><b>Standup</b><em>Plan for the day, late joiners find a team</em></li>
+          <li class="agenda--hack"><span class="mono">09:30</span><b>Hacking</b></li>
+          <li><span class="mono">12:30</span><b>Lunch</b></li>
+          <li class="agenda--hack"><span class="mono">13:30</span><b>Hacking</b></li>
+          <li><span class="mono">15:30</span><b>Coffee and demo prep</b></li>
+          <li><span class="mono">16:00</span><b>Project demos</b><em>Five minutes per team, live, failures welcome</em></li>
+          <li><span class="mono">17:15</span><b>Participant vote</b></li>
+          <li class="agenda--prize"><span class="mono">17:40</span><b>GB10 award and close</b><em>The winning team takes a workstation home</em></li>
+          <li><span class="mono">18:00</span><b>Venue closes</b></li>
+        </ol>
+      </article>
+    </div>
+    <p class="note mono">Provisional. Rooms and timings will be confirmed closer to the event.</p>
+  </section>
+
+  <!-- ================= VENUE ================= -->
+  <section class="section section--alt" id="venue">
+    <div class="section__head">
+      <p class="eyebrow">Getting there</p>
+      <h2 class="section__title">The Neuro, on the mountain.</h2>
+    </div>
+
+    <div class="venue">
+      <div class="venue__info">
+        <h3>de Grandpré Communications Centre</h3>
+        <p class="venue__addr mono">
+          Montreal Neurological Institute-Hospital<br>
+          3801 University Street<br>
+          Montréal, Québec H3A 2B4<br>
+          Canada
+        </p>
+        <a class="link" href="https://www.google.com/maps/search/?api=1&query=Montreal+Neurological+Institute+3801+University+Street+Montreal" rel="noopener">Open in Maps →</a>
+
+        <dl class="venue__list">
+          <div>
+            <dt>Metro</dt>
+            <dd>McGill (green line) or Peel (green line), then a 10–15 minute walk uphill. The last stretch is steep.</dd>
+          </div>
+          <div>
+            <dt>Accessibility</dt>
+            <dd>The room is wheelchair accessible. Tell us what you need when you register and we'll sort it out.</dd>
+          </div>
+          <div>
+            <dt>Food</dt>
+            <dd>Coffee and lunch are provided both days. Dietary requirements are collected at registration.</dd>
+          </div>
+          <div>
+            <dt>Bring</dt>
+            <dd>A laptop. GB10 workstations are shared between teams; power and wifi are provided.</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="venue__map">
+        <iframe
+          title="Map showing the Montreal Neurological Institute"
+          src="https://www.google.com/maps?q=Montreal+Neurological+Institute+3801+University+Street+Montreal&hl=en&z=16&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REGISTER ================= -->
+  <section class="section register" id="register">
+    <div class="register__inner">
+      <p class="eyebrow">Registration</p>
+      <h2 class="register__title">Eighty seats. That's the whole room.</h2>
+      <p class="register__lede">
+        Attendance is free, but the room is capped at 80 and we expect to fill it. Register in
+        advance — there are no walk-in places on the day.
+      </p>
+      <a class="btn btn--solid btn--lg" data-register href="#">Register now</a>
+      <p class="register__note mono" data-register-note hidden>Registration opens soon — check back shortly.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__col">
+    <p class="footer__brand">BigBrain Hackathon 2026</p>
+    <p class="muted">18–19 October 2026 · de Grandpré Communications Centre, The Neuro, Montréal</p>
+  </div>
+  <nav class="footer__col" aria-label="Footer">
+    <a href="#projects">Projects</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#register" data-register>Register</a>
+    <a href="CODE_OF_CONDUCT.md">Code of conduct</a>
+    <a href="https://events.hifis.net/event/3620/" rel="noopener">BigBrain Workshop</a>
+    <a data-repo-link href="#">GitHub</a>
+  </nav>
+  <div class="footer__col">
+    <p class="muted">Supported by Dell and NVIDIA.</p>
+    <p class="muted">Questions? <a href="mailto:CONTACT@EXAMPLE.ORG">CONTACT@EXAMPLE.ORG</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

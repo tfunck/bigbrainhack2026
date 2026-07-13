@@ -1,0 +1,113 @@
+name: Project pitch
+description: Propose a project for the BigBrain Hackathon 2026.
+title: "<My project name>"
+labels: ["Project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for pitching a project. The hackathon website updates automatically
+        whenever this issue is opened or edited, so keep it current.
+
+        Everything here is public. Aim for something a small team can move forward
+        in two days, and be explicit about the help you want.
+
+  - type: input
+    id: project-title
+    attributes:
+      label: Project title
+      description: Also set the issue title to match.
+    validations:
+      required: true
+
+  - type: textarea
+    id: short-description
+    attributes:
+      label: Short description and goals
+      description: What is the project, and what do you want to have working by the end of Day 2?
+    validations:
+      required: true
+
+  - type: input
+    id: project-link
+    attributes:
+      label: Project link
+      description: Repository, docs, or project website.
+    validations:
+      required: true
+
+  - type: input
+    id: image
+    attributes:
+      label: Image or logo URL
+      description: Public URL to an image for the project card. Square or 16:9 works best.
+    validations:
+      required: false
+
+  - type: textarea
+    id: project-leads
+    attributes:
+      label: Project lead(s)
+      description: One lead per line — name, GitHub handle, affiliation.
+      placeholder: Ada Lovelace, @ada, The Neuro
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: themes
+    attributes:
+      label: Themes
+      description: Pick everything that applies. These become the filters on the website.
+      options:
+        - label: Data analysis
+        - label: Visualization
+        - label: Multimodal integration
+        - label: Laminar & cytoarchitecture
+        - label: Segmentation & AI
+        - label: Atlases & parcellation
+        - label: HPC & scaling
+        - label: Documentation & training
+
+  - type: textarea
+    id: skills
+    attributes:
+      label: Skills that would help
+      description: What should a contributor bring? Name languages, libraries, and domain knowledge.
+    validations:
+      required: true
+
+  - type: textarea
+    id: good-first-issues
+    attributes:
+      label: Good first issues
+      description: Beginner-friendly tasks, so newcomers can join on Day 1 without a long ramp-up.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: gb10
+    attributes:
+      label: Would this project use a GB10 workstation?
+      description: Twenty Dell Pro Max with GB10 machines are on site. This helps us allocate them.
+      options:
+        - "Yes — the project needs local GPU compute"
+        - "Maybe — useful but not essential"
+        - "No"
+    validations:
+      required: true
+
+  - type: input
+    id: pitch
+    attributes:
+      label: Pitch slide or video
+      description: Optional link to a single slide or a short video for the Day 1 pitch session.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Code of conduct
+      options:
+        - label: I have read the code of conduct and agree to follow it.
+          required: true

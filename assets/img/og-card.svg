@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#E6E8E3"/>
+  <g stroke="#6F2D57" opacity="0.28">
+    <path d="M0 0h1200" stroke-width="0"/>
+  </g>
+  <g fill="#191B1E" font-family="Helvetica, Arial, sans-serif">
+    <text x="80" y="150" font-size="24" letter-spacing="6" fill="#6F2D57">18-19 OCTOBER 2026 — MONTREAL</text>
+    <text x="80" y="290" font-size="86" font-weight="bold">Hack the brain</text>
+    <text x="80" y="380" font-size="86" font-weight="bold">at 20 microns.</text>
+    <text x="80" y="470" font-size="26" fill="#565F62">BigBrain Hackathon — The Neuro — 80 seats</text>
+    <text x="80" y="530" font-size="22" fill="#565F62">Compute by Dell and NVIDIA</text>
+  </g>
+  <g stroke="#6F2D57" stroke-width="2" opacity="0.5">
+    <path d="M980 180h140M960 220h180M950 260h200M960 300h180M980 340h140M1000 380h100"/>
+  </g>
+</svg>
