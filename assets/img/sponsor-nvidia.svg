@@ -1,8 +1,16 @@
-<!-- PLACEHOLDER. Replace with the official NVIDIA logo from NVIDIA's brand assets. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-label="NVIDIA">
-  <rect width="220" height="64" fill="none" stroke="#565F62" stroke-dasharray="4 4"/>
-  <text x="110" y="34" text-anchor="middle" font-family="IBM Plex Sans, sans-serif"
-        font-size="24" font-weight="600" fill="#F3F4F0">NVIDIA</text>
-  <text x="110" y="50" text-anchor="middle" font-family="IBM Plex Mono, monospace"
-        font-size="8" letter-spacing="1.5" fill="#8F9A92">REPLACE WITH OFFICIAL LOGO</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     version="1.1"
+     width="0.733333in" height="0.213333in"
+     viewBox="0 0 220 64">
+  <defs>
+  </defs>
+  <image id="raster0"
+         x="0"
+         y="0"
+         width="220"
+         height="64"
+         opacity="1.000000"
+         href="data:image/png;base64,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" />
 </svg>
