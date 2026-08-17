@@ -1,8 +1,16 @@
-<!-- PLACEHOLDER. Replace with the official Dell logo from Dell's brand assets. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-label="Dell">
-  <rect width="220" height="64" fill="none" stroke="#565F62" stroke-dasharray="4 4"/>
-  <text x="110" y="34" text-anchor="middle" font-family="IBM Plex Sans, sans-serif"
-        font-size="24" font-weight="600" fill="#F3F4F0">Dell</text>
-  <text x="110" y="50" text-anchor="middle" font-family="IBM Plex Mono, monospace"
-        font-size="8" letter-spacing="1.5" fill="#8F9A92">REPLACE WITH OFFICIAL LOGO</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     version="1.1"
+     width="0.733333in" height="0.213333in"
+     viewBox="0 0 220 64">
+  <defs>
+  </defs>
+  <image id="raster0"
+         x="0"
+         y="0"
+         width="220"
+         height="64"
+         opacity="1.000000"
+         href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAABACAYAAABx/hm5AAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAABKxJREFUeNrt3V1oW2UYB/DnOScfq2ma5GSxXb+Izqq4DotzFxOFiCCig11VQdDSWzdBBPELIQxkl7vR3fSirTdCezNERdiQQkFlrNOVhTIitZoSYpePk5Pa2STnPF7YtKctbf1YT87G/3fVk+ckhSf8877veXNaHhwaTpLN5PjopmPUUUf9ztUBAAAAAP4vzDEBnMuagjYAOAeBA0DgAAAAAAAAAACaDPtwAM5lDVcpARyEwAE4yIMW3Ntyei7ewt6HGselUmU6Ho+vEhGlllKBbn/HiUbNNFdvalpnBl3bP4wW7K9UKuWNdcd6tn3SmbVqobCy1NfXV93P31+ulD5QmD9uHFdXK13RaE+WiKhQKDzq86tzjZplypuhUOQTvGsY4e5asVist0X1/bytoPqo41CAjOXSLRK6ZJE58dPMjS8TiYSJrmENB/s2xeAYM7+qsufiE8cGfiwWf+9HVxA4uGOkRCLzJDJPRPqm8DEd9fr807q+9Dj6dI8GDvtwzrKEzgeDkcPBYORwsDUcMeu1YyLyje2UsOrxTiwsLPh3eo1MJnOgXC4c1yv5U4ZRfDGn5+LorPthH84FwuHYtWsz109aIl/bxrqHw9G217aem06nfYZROheOtGYVVb2isuciK8pXAc+BX4xK6UqxWHwKHcWUEvaQSCRMs1Z9d/Mbwy9vDVv7odhlVvg9Io5sWwsyH/d4eapcLr6AjiJwsAdNa78hQhl7gOz19vboh0z0zPpKkKwLZr3+nGVarwjJ3NpzvKzwaDZ7tQUddWngtv4dPWgipnn7bDO1lAoQ/b2XRwq/sR42kYm2Vu10OHzw21BIm7hdr74kIrW10HUEAg+eRDPdZ3J8NIl9ODcRWSHe+C5CYCXgISLq7Lz/BBMfbDxukVzKZDLr08pqpaq3hP03iaifiEhR+EkimkRD3QeBc9UAR2HbKFYbGxsziIhU1bPpmyoqKyPhSHBk59xSFN3EGg52MTU1pRJz/8Yajn5LJpPSWOL9q+Ayq+ioS0e4waHhJNZxzTcwcPQUEQXXRymLpmzlov1cS+QjsuTmLnPTBXTUfQaHhrGGc4NCYbFLUdXz9sdMsz7e+LlelwWvz/49c8mHQhrWaJhSwj+VzV5tyefzjxhG8W2vLzDDTL0beaIvIpHYdONwdnb2BxFa3FjrKe/ncrnY1tdMp9M+Xc8/i+66eEqJFjj8Ccd8trKsn91xMih0vVjQX7c/lkgkzHK5dI5V/nRtfdcbaPXPGZXi5yT0KzPHhKiXmZ4nYYOIHkCnXRo4rN/cQUTqxDSSuZ1950j8yB9b66FQ5IJRKT7GrJxeG+eizHymcUejbcJpoJvuhH245qqQUIFIUhbRd2Zt5TNN61rc7QltQe2MXilcVlh9i0Setl+NFBFhou9NklG01r1wx/ddKp1OBzVN6/Z45D7Lqt1aXq4v9fT0/InOAAA04H44AOeyhm0BAAchcAAIHAAAAAAAAABAk2EfDsC5rOEqJYCDEDgABA4AAAAAAAAAoMmwDwfgXNZwlRLAQQgcAAIHAAAAAAAAANBk2IcDcC5ruEoJ4CAEDsBBnr2mmFv/nRXqqKP+3+t/AZglXCvryFVgAAAAAElFTkSuQmCCAA==" />
 </svg>

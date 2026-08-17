@@ -23,8 +23,9 @@ Behave in a way that lets them.
 
 ## Reporting
 
-If you experience or witness a breach of this code, contact the organisers in person at the
-registration desk, or by email at CONTACT@EXAMPLE.ORG. Reports are handled discreetly.
+If you experience or witness a breach of this code, contact the organisers in person or by email at 
+tffunck@gmail.com. 
+Reports are handled discreetly.
 
 Organisers may take any action they judge appropriate, from a warning to removal from the
 event without refund and, where relevant, a report to the participant's institution.
@@ -34,7 +35,4 @@ event without refund and, where relevant, a report to the participant's institut
 This code applies for the full duration of the hackathon, in the venue and in any online
 space used by the event, including the project issue tracker in this repository.
 
----
 
-Adapted from widely used community codes of conduct, including the Contributor Covenant and
-the Brainhack code of conduct.
