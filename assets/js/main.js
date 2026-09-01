@@ -41,8 +41,8 @@ const LABEL = CFG.projectLabel || "Project";
    ---------------------------------------------------------------------- */
 (function wireLinks() {
   const issueNew = REPO
-    ? `https://github.com/${REPO}/issues/new?template=project-pitch.yml&labels=${encodeURIComponent(LABEL)}`
-    : null;
+    ? `https://github.com/${REPO}/issues/new/choose`
+  : null;
   const issueList = REPO
     ? `https://github.com/${REPO}/issues?q=is%3Aissue+is%3Aopen+label%3A%22${encodeURIComponent(LABEL)}%22`
     : null;
